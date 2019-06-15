@@ -53,5 +53,4 @@ function getUrlContentFromCURL($url, $useragent='cURL', $headers=false, $follow_
     // send back the data
     return $result;
     }
-    echo getUrlContentFromCURL('https://github.com/oxcakmak/');
 ?>
